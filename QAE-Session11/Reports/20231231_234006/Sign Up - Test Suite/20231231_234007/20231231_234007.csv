@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign Up - Test Suite,Chrome 120.0.0.0,,,31-12-2023 23:40:13,31-12-2023 23:40:29,15.695s,FAILED
+,,,,,,,
+Test Cases/demoblaze/01_Sign Up,Chrome 120.0.0.0,,,31-12-2023 23:40:26,31-12-2023 23:40:29,2.879s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,31-12-2023 23:40:26,31-12-2023 23:40:27,0.856s,PASSED
+"navigateToUrl(""https://demoblaze.com/index.html"")",Chrome 120.0.0.0,,,31-12-2023 23:40:27,31-12-2023 23:40:27,0.307s,PASSED
+"click(findTestObject(""Object Repository/demoblaze_/Sign Up/a_Sign up""))",Chrome 120.0.0.0,,,31-12-2023 23:40:27,31-12-2023 23:40:28,1.470s,PASSED
+"setText(findTestObject(""Object Repository/demoblaze_/Sign Up/inputsign-username""), ""dwiwidiyaningsih"")",Chrome 120.0.0.0,,,31-12-2023 23:40:28,31-12-2023 23:40:29,0.227s,FAILED
